@@ -25,6 +25,7 @@ describe('Check Contact App functionality', () => {
   });
 
   it('should be able to view new contact', () => {
+    cy.get('input[type="search"]').type('Test User');
     cy.get('li').contains('Test User').click();
     cy.location('pathname').should('include', '/contacts/');
   });
