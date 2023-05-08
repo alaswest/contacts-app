@@ -83,4 +83,7 @@ Spending more time on the project, there are a few things i have identified I wo
 - [ ] Inconsistent performance / How to better use Next.js Caching
 - [ ] Cross Browser testing
 - [ ] Accessibility compliant
+- [ ] Configure development pipelines
+- [ ] Deploy to environment
+- [ ] Configure continuous deployment in pipelines
 - [ ] Reconfigure Cypress tests to a more scalable structure
